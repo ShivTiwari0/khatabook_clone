@@ -1,0 +1,49 @@
+name: eassy_rokkad
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  fluttertoast: ^8.2.4
+  http: ^1.2.0
+  another_flushbar: ^1.12.30
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  intl: ^0.18.1
+  flutter_otp_text_field: ^1.1.1
+  flutter_localizations:
+    sdk: flutter
+  permission_handler: ^11.3.0
+  date_picker_plus: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/appIcons/
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/font/Lato-Black.ttf
+        - asset: assets/font/Lato-BoldItalic.ttf
+        - asset: assets/font/Lato-LightItalic.ttf
+        - asset: assets/font/Lato-Light.ttf
+        - asset: assets/font/Lato-Regular.ttf
+        - asset: assets/font/Lato-Thin.ttf
+        - asset: assets/font/Lato-Bold.ttf
+    - family: Tiro_Devanagari_Hindi
+      fonts:
+        - asset: assets/font/TiroDevanagariHindi-Italic.ttf 
+        - asset: assets/font/TiroDevanagariHindi-Regular.ttf        
